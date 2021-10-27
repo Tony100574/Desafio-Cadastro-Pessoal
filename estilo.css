@@ -15,9 +15,11 @@ body{
 }
 fieldset{
     border: 3px solid rgba(230, 229, 235, 0.925);
+    border-radius: 15px;
 }
 legend{
     border: 1px solid rgba(20, 4, 238, 0.986);
+    border-radius: 15px;
     padding: 10px;
     text-align: center;
     background-color: rgba(14, 11, 216, 0.925);
@@ -58,7 +60,7 @@ legend{
     font-size: 15px;
 }
 #submit{
-    background-image: linear-gradient(to right,rgb(0, 3, 197), rgb(90, 20, 220));
+    background-image: linear-gradient(to right,rgb(44, 44, 46), rgba(110, 106, 117, 0.521));
     width: 100%;
     border: none;
     padding: 15px;
@@ -68,5 +70,5 @@ legend{
     border-radius: 10px;
 }
 #submit:hover{
-    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+    background-image: linear-gradient(to right,rgb(55, 56, 56), rgba(190, 173, 219, 0.473));
 }
